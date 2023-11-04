@@ -90,6 +90,10 @@ UI logic for PlotDisplay:
     - B flips vertical orientation of an area, around mouse cursor
 - Esc aborts selection mode
 
+UI logic for the input form:
+  -Right click the button to select a color of the function graph
+  -Left click the button to compile the function and render it
+
 ## License
 
 MIT License
