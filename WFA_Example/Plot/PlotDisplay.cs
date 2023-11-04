@@ -276,28 +276,28 @@ namespace GDPlotter
                         PlotController.PlotArea = RectangleD.Pad(PlotController.PlotArea, 0.0, 0.0, PLOT_PAD, 0.0);
                     break;
 
-                case Keys.Left:
+                case Keys.J:
                     if (ShiftDown)
                         PlotController.Control_CC_Shift(PointD.Zero, new PointD(-CONTROL_SHIFT, 0));
                     else
                         PlotController.Plot_CC_Shift(PointD.Zero, new PointD(-PLOT_SHIFT, 0));
                     break;
 
-                case Keys.Up:
+                case Keys.I:
                     if (ShiftDown)
                         PlotController.Control_CC_Shift(PointD.Zero, new PointD(0, CONTROL_SHIFT));
                     else
                         PlotController.Plot_CC_Shift(PointD.Zero, new PointD(0, PLOT_SHIFT));
                     break;
 
-                case Keys.Right:
+                case Keys.L:
                     if (ShiftDown)
                         PlotController.Control_CC_Shift(PointD.Zero, new PointD(CONTROL_SHIFT, 0));
                     else
                         PlotController.Plot_CC_Shift(PointD.Zero, new PointD(PLOT_SHIFT, 0));
                     break;
 
-                case Keys.Down:
+                case Keys.K:
                     if (ShiftDown)
                         PlotController.Control_CC_Shift(PointD.Zero, new PointD(0, -CONTROL_SHIFT));
                     else
