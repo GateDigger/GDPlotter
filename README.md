@@ -29,7 +29,6 @@ _PlotController fulfills the following roles:
     - Zoom
       - Zooms in/out the ControlArea or the PlotArea rectangle
         - either in real time by continuous updates of the most recent pair of points of interaction
-          - ZoomMode property
           - ?_ActivateZoomMode
           - UpdateZoomModeCoord (or UpdateCoords which fixates the first point)
           - DeactivateZoomMode
@@ -38,7 +37,6 @@ _PlotController fulfills the following roles:
     - Shift
       - Shifts the ControlArea or the PlotArea rectangle
         - Either in real time by continuous updates of the most recent point of interaction
-          - ShiftMode property
           - ?_ActivateShiftMode
           - UpdateShiftModeCoord (or UpdateCoords)
           - DeactivateShiftMode
@@ -46,7 +44,6 @@ _PlotController fulfills the following roles:
           - ?_?_Shift methods
     - Select
       - Either tracks a selection preview of the ControlArea or the PlotArea rectangle in real time based on update of the most recent point of interaction
-        - SelectionMode property
         - ?_ActivateSelectionMode
         - UpdateSelectionModeCoord (or UpdateCoords)
         - RefreshSelection
